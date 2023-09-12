@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,800;1,100;1,900&display=swap"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/octo_styles.css">
+  <title>Sea Creatures</title>
+</head>
+
+<body>
+
+  <p class="scoremsg"></p>
+  <p class="time_out"></p>
+  <p class="puzzle_msg"></p>
+  <p class="comp_msg"></p>
+  <h2>TIME LEFT:<span id="timer">0</span>
+    WORDS CORRECT:<span id="score">0</span>
+</h2>
+
+  <div id="container1">
+    
+    <div id="fact_container"></div>
+    <ul id="levels">
+      <li>
+        <div><button id="btn_1"><a id="level1" href="level1.html">Level 1</a></div></button>
+      </li>
+      <li>
+        <div><button id="btn_2"><a id="level2" href="level2.html">Level 2</a></div></button>
+      </li>
+      <li>
+        <div><button id="btn_3"><a id="level3" href="level3.html">Level 3</a></div></button>
+      </li>
+      <li>
+        <div><button id="btn_4"><a id="level4" href="level4.html">Level 4</a></div></button>
+      </li>
+      <li>
+        <div><button id="btn_5"><a id="level5" href="level5.html">Level 5</a></div></button>
+      </li>
+      <li>
+        <div><button id="btn_5"><a id="" href="index.html">Home Screen</a></div></button>
+      </li>
+      <li>
+        <div><button id="btn_5"><a id="" href="instructions.html">Game Help</a></div></button>
+      </li>
+  </ul>
+    <div id="creature_container"></div>
+  </div>
+
+      <div id="game_container">
+          
+
+        <div id="container">
+          <div class="ltrs"></div>
+          <div class="ltrs"></div>
+          <div class="ltrs"></div>
+          <div class="ltrs"></div>
+          <div class="ltrs"></div>
+          <div class="ltrs"></div>
+          <div class="ltrs"></div>
+        </div>
+    
+        <div id="dropzone">
+          <div id="Odrp" ></div>
+          <div id="Cdrp" ></div>
+          <div id="Tdrp" ></div>
+          <div id="Odrp2" ></div>
+          <div id="Pdrp" ></div>
+          <div id="Udrp" ></div>
+          <div id="Sdrp" ></div>
+          
+         
+        </div>
+
+        <audio id="audio-element">
+          <source src="audio/point_scored.mp3" type="audio/mpeg">
+        </audio>
+       
+    
+       <div id="btns">
+        <div id="btn_start" onclick="startGame()">START</div>
+        <div id="shuffle_btn">Restart</div>
+      </div>
+      </div>
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+    
+     
+
+
+
+  <link rel="stylesheet" href="jq/jqueryUI/jquery-ui.min.css">
+  <script src="jq/jqueryCORE/jquery-3.6.1.min.js"></script>
+  <script src="jq/jqueryUI/jquery-ui.min.js"></script>
+  <script src="js/level5.js"></script>
+  
+</body>
+
+
+
+</html>

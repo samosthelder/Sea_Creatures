@@ -1,0 +1,304 @@
+html,
+body {
+  margin: 0;
+  background-image: url(/images/dolph_bg\(1\).jpg);
+  background-repeat: no-repeat;
+}
+
+#game_container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  padding: 2rem;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Zen Dots";
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  margin-left: 200px;
+  color: rgb(199, 129, 8);
+}
+
+#score {
+  display: flex;
+  justify-content: left;
+  font-family: "Zen Dots";
+}
+
+#timer {
+  display: flex;
+  justify-content: right;
+  font-family: "Zen Dots";
+}
+
+.ltrs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  margin-right: 0.5rem;
+  font-size: 3rem;
+  font-family: "Zen Dots";
+  color: rgb(114, 23, 211);
+  background-color: rgb(25, 119, 200);
+  border-radius: 10%;
+  border: red 5px;
+  
+}
+
+#dropzone {
+  width: 55%;
+
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+#Ddrp,
+#Odrp,
+#Ldrp,
+#Pdrp,
+#Hdrp,
+#Idrp,
+#Ndrp {
+  width: 75px;
+  height: 75px;
+  margin: 1rem 0.5rem 1rem 0;
+  border-radius: 10%;
+  font-family: "Zen Dots";
+  border: solid red 5px;
+}
+
+#Ddrp {
+  background-color: rgb(238, 238, 226);
+  border-radius: 10%;
+  font-family: "Zen Dots";
+}
+
+#Odrp {
+  background-color: rgb(243, 243, 236);
+}
+
+#Ldrp {
+  background-color: rgb(243, 243, 238);
+}
+
+#Pdrp {
+  background-color: rgb(247, 247, 239);
+}
+
+#Hdrp {
+  background-color: rgb(247, 247, 241);
+}
+
+#Idrp {
+    background-color: rgb(247, 247, 241);
+  }
+
+
+#Ndrp {
+    background-color: rgb(247, 247, 241);
+  }
+
+#shuffle_btn {
+  background-color:  rgb(199, 129, 8);
+  border-radius: 10%;
+  text-align: center;
+  margin-top: -15px;
+
+  width: 120px;
+  height: 20px;
+  font-family: "Zen Dots";
+}
+
+.shuffle:hover {
+  background-color: #97bde5;
+  color: rgb(20, 20, 20);
+}
+
+#btns {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+#btn_start {
+  background-color: rgb(199, 129, 8);
+  border-radius: 10%;
+  text-align: center;
+  margin-top: -15px;
+  width: 120px;
+  height: 20px;
+  font-family: "Zen Dots";
+}
+
+.scoremsg {
+  display: none;
+  width: 650px;
+  margin: 0 auto;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Poppins";
+  text-align: center;
+  color: #b7d3db;
+}
+.time_out {
+  display: none;
+  width: 650px;
+  margin: 0 auto;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Poppins";
+  text-align: center;
+  color: #b7d3db;
+}
+
+#fact_container {
+  width: 420px;
+  height: 408px;
+  border: 2px solid black;
+  float: left;
+  text-align: center;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 400px;
+  position: relative;
+  opacity: 0.9;
+  background-color: #b7d3db;
+  margin-top: 10px;
+  display: block;
+  border-radius: 10%;
+}
+
+#container1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem;
+}
+
+#creature_container {
+  width: 408px;
+  height: 408px;
+  border: 2px solid black;
+  float: right;
+  margin-top: 10px;
+  opacity: 0.9;
+  background-color: #b7d3db;
+  background-image: url(/images/dolph.jpg);
+  border-radius: 10%;
+  
+  
+}
+ul {
+  list-style-type: none;
+  margin: 20px;
+  margin-top: 40vh;
+  text-align: center;
+}
+
+#btn_1,
+#btn_2,
+#btn_3,
+#btn_4,
+#btn_5 {
+  width: 300px;
+  background-color: rgb(36, 32, 57);
+  border-radius: 10%;
+}
+
+#levels {
+  width: 200pxpx;
+  border: 1px solid black;
+  font-size: 20px;
+  
+  padding: 5px;
+  opacity: 0.8;
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.login-container {
+  background-color: hsla(201, 100%, 6%, 0.6);
+  padding: 50px 30px;
+  height: 20px;
+  width: 20px;
+
+  border-radius: 10%;
+}
+
+.login-title {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+#select {
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  margin-right: 15%;
+  margin-left: 10%;
+  border-radius: 10%;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Zen Dots";
+  
+}
+
+
+
+a:hover{
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+   -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+
+#fact_container:hover{
+  
+  color: #fafff4;
+  box-shadow: 0 0 5px #f45f03,
+              0 0 25px #f46b03,
+              0 0 50px #f46303,
+              0 0 200px #fc7945;
+   -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+#creature_container:hover{
+  
+  color: #050801;
+  box-shadow: 0 0 5px #f45f03,
+              0 0 25px #f46b03,
+              0 0 50px #f46303,
+              0 0 200px #fc7945;
+   -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
